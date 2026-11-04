@@ -8,7 +8,7 @@ import {
 	score as pointsFor,
 	slide,
 	spawn
-} from '@fangluwe/arcade-core';
+} from '@fangluw/arcade-core';
 import { describe } from './announce.js';
 import { recordScore } from './stats.svelte.js';
 import { readJSON, writeJSON } from './storage.js';

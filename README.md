@@ -2,7 +2,7 @@
 
 My CS5610 site: a home page, About and Contact pages, a mini crossword, and 2048.
 The 2048 rules come from my npm package,
-[`@fangluwe/arcade-core`](https://www.npmjs.com/package/@fangluwe/arcade-core), installed from the registry.
+[`@fangluw/arcade-core`](https://www.npmjs.com/package/@fangluw/arcade-core), installed from the registry.
 
 ## Run it
 
@@ -43,7 +43,7 @@ src/
       puzzle.js            builds the grid from the answer list (plain JS)
       game.svelte.js       CrosswordGame class: all game state, using runes
     game2048/
-      game.svelte.js       Game2048 class: score, seed, saving; rules come from @fangluwe/arcade-core
+      game.svelte.js       Game2048 class: score, seed, saving; rules come from @fangluw/arcade-core
       stats.svelte.js      best score, shared by the game and the home page
       tiles.js             gives tiles stable ids between moves so they slide (plain JS)
       announce.js          the sentences read to screen readers after each move (plain JS)
